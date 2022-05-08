@@ -1359,13 +1359,16 @@ footer
   .prod .prod__title h2 {
     font-size: 30px;
   }
+  .prod .prod__item {
+    margin: 0 0;
+  }
   .prod .prod__item .prod__container {
     padding: 25px;
   }
   .prod .prod__info span {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 0 0;
     line-height: 20px;
   }
   .prod .prod__graf {
