@@ -664,6 +664,69 @@ footer
             }
         }
     }
+    .prod{
+        .prod__title{
+            h2{
+                transform: translate(0px , 0px);
+                opacity: 1;
+            }
+            span{
+                transform: translate(0px , 0px);
+                opacity: 1;
+            }
+
+        }
+        .prod__item{
+            transform: translate(0px , 0px);
+            opacity: 1;
+        }
+        .prod__info{
+            h3{
+                transform: translate(0px , 0px);
+                opacity: 1;
+            }
+            span{
+                transform: translate(0px , 0px);
+                opacity: 1;
+            }
+        }
+        .prod__item_reverse{
+            transform: translate(0px , 0px);
+            opacity: 1;
+        }
+    }
+    .advantages{
+        .advantages__title{
+            h2{
+                transform: translate(0px , 0px);
+                opacity: 1; 
+            }
+        }
+        .advantages__item{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    .advantages__tr{
+        .advantages__td:first-child{
+            transform: translate(0px, 0px);
+            opacity: 1;
+        }
+        .advantages__td:last-child{
+            transform: translate(0px , 0px);
+            opacity: 1;
+        }
+    }
+    .certificate{
+        h2{
+            transform: translate(0px , 0px);
+            opacity: 1;
+        }
+        span{
+            transform: translate(0px , 0px);
+            opacity: 1;
+        }
+    }
 }
 
 @media (max-width: 1024px){
