@@ -1205,7 +1205,25 @@ footer
             span{
                 font-size: 14px;
                 font-weight: 600;
+                margin: 10px 0;
+                line-height: 20px;
             }
+        }
+        .prod__graf{
+            display: none;
+        }
+        .prod__section{
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+
+            .prod__item{
+                justify-content: center;
+            }
+        }
+        .prod__section:last-child{
+            height: 560px;
         }
     }
     .advantages{
@@ -1245,7 +1263,11 @@ footer
             width: 30%;
         }
     }
-
+    .advantages{
+        .advantages__table{
+            border-radius: 40px;
+        }
+    }
     .footer{
         height: 760px;
     }
@@ -1263,15 +1285,6 @@ footer
         }
     }
     .prod{
-        .prod__item{
-            .prod__container{
-                padding: 15px;
-
-                span{
-                    font-size: 14px;
-                }
-            }
-        }
         .prod__info{
             h3{
                 font-size: 16px;
@@ -1286,6 +1299,14 @@ footer
             h2{
                 font-size: 24px;
             }
+        }
+        .advantages__table{
+            border-radius: 30px;
+            padding: 30px 20px;
+            width: 80%;
+        }
+        .advantages__item{
+            width: 80%;
         }
     }
     .certificate{
