@@ -677,6 +677,54 @@ footer{
         margin: 0 50px;
     }
 }
+
+@media (max-width: 1200px){
+    h2{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    h3{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    .info__text{
+        width: 95%;
+    }
+    .prod__title{
+        span{
+            opacity: 1;
+            transform: translate(0px, 0px);
+        }
+    }
+    .prod__item{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    .prod__info{
+        span{
+            opacity: 1;
+            transform: translate(0px, 0px);
+        }
+    }
+    .advantages__item{
+        opacity: 1;
+        transform: scale(1);
+    }
+    .advantages__td:first-child{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    .advantages__td:last-child{
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    .certificate{
+        span{
+            opacity: 1;
+            transform: translate(0px, 0px);
+        }
+    }
+}
 @media (max-width: 1150px){
 
     .prod__section{
@@ -801,6 +849,24 @@ footer{
                 color: #2D2D2D;
                 opacity: 0.8;
             }
+            a:before{
+                background-image: url("../images/phone_dark.svg");
+            }
+        }
+        .menu__contacts:nth-child(4){
+            a:before{
+                top: -5px;
+                left: -20px;
+                background-image: url("../images/email_dark.svg");
+            }
+        }
+        .menu__contacts:nth-child(5){
+            a:before{
+                top: -3px;
+                left: -10px;
+                background-image: url("../images/loc_dark.svg");
+                background-repeat: no-repeat;
+            }
         }
       }
     .burger__btn::before{
@@ -909,6 +975,277 @@ footer{
         margin-top: 60px;
         height: 2000px;
     }
-    .footer{}
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        background-size: 1920px 1200px;
+        padding: 0px 60px;
+    }
+    .footer__dark{
+        height: 1000px;
+    }
+    .footer__item{
+        width: 90%;
+        align-items: center;
+        
+        form{
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .footer__contacts{
+        align-items: center;
+    }
 }
 
+@media (max-width: 735px){
+    .menu__logo{
+        width: 20%;
+    }
+    h1{
+        font-size: 2.2em;
+    }
+    .info__price{
+        font-size: 4em;
+    }
+    .info__text{
+        font-size: 1.2em;
+    }
+    .prod__container{
+        padding: 40px 40px;
+    }
+    .prod__info{
+        width: 80%;
+    }
+    .footer__item{
+        text-align: center;
+        h3{
+            line-height: 40px;
+        }
+        form{
+            margin-top: 15px;
+        }
+    }
+    .footer__contacts{
+        span{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 625px){
+    .burger__box{
+        .menu__contacts:nth-child(5){
+            width: 70%;
+            text-align: center;
+        }
+    }
+    h1{
+        font-size: 1.8em;
+    }
+    .info__price{
+        font-size: 3em;
+    }
+    .prod__item{
+        width: 80%;
+    }
+    .prod__container{
+        span{
+            font-size: 1.4em;
+        }
+    }
+}
+@media (max-width: 540px){
+    .menu__logo{
+        width: 30%;
+    }
+    .info__text{
+        line-height: 40px;
+    }
+    .prod__info{
+        width: 90%;
+
+        h3{
+            margin: 0 auto 10px auto;
+        }
+    }
+    .advantages__table{
+        margin: 40px auto;
+    }
+    .certificate{
+        padding: 40px 0;
+        img{
+            width: 400px;
+            height: 600px;
+        }
+    }
+}
+@media (max-width: 480px){
+    h1{
+        font-size: 1.6em;
+        width: 90%;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .info__price{
+        font-size: 2.6em;
+    }
+    .prod__section:last-child{
+        height: 700px;
+    }
+    .prod__info{
+        h3{
+            text-align: center;
+        }
+    }
+    .advantages{
+        height: 1550px;
+    }
+    .advantages__item{
+        width: 80%;
+
+        img{
+            width: 150px;
+        }
+    }
+    .advantages__item:nth-child(2){
+        img{
+            width: 250px;
+        }
+    }
+    .advantages__table{
+        margin: 0 auto;
+        padding: 45px;
+        border-radius: 70px;
+    }
+    .certificate{
+        img{
+            width: 300px;
+            height: 450px;
+        }
+        span{
+            font-size: 1em;
+        }
+    }
+    .footer__item{
+        img{
+            width: 150px;
+        }
+        form{
+            input{
+                width: 300px;
+            }
+        }
+    }
+    .footer__contacts{
+        span:last-child{
+            padding-left: 20px;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 380px){
+    .menu__logo{
+        width: 40%;
+    }
+    h1{
+        font-size: 1.3em;
+    }
+    .info{
+        height: 650px;
+    }
+    .info__dark{
+        height: 713px;
+    }
+    .info__text{ 
+        width: 90%;
+        font-size: 1em;
+        line-height: 36px;
+    }
+    .prod__container{
+        padding: 40px 30px;
+        box-shadow: -10px 10px 0px 0px rgba(30,155,128, 0.8);
+    }
+    .prod__item_reverse{
+    
+        .prod__container{
+            box-shadow: 10px 10px 0px 0px rgba(30,155,128, 0.8);
+        }
+    }
+    .advantages{
+        padding: 30px 0;
+        height: 1400px;
+    }
+    .advantages__container{
+        padding: 0;
+    }
+    .advantages__table{
+        border-radius: 60px;
+        padding: 50px 40px;
+        height: 420px;
+    }
+    .advantages__tr{
+        height: 40px;
+    }
+    .advantages__td{
+        span{
+            font-size: 0.8em;
+        }
+    }
+    .footer{
+        padding: 0 20px;
+    }
+    .footer__item{
+        form{
+            width: 90%;
+        }
+    }
+    .footer__contacts{
+        span:nth-child(4){
+            a::before{
+                left: -5px;
+                top: 8px;
+            }
+        }
+    }
+}
+@media (max-width: 320px){
+    .info__price{
+        font-size: 2.2em;
+    }
+    .prod__container{
+        span{
+            font-size: 1em;
+        }
+    }
+    .prod__section{
+        height: 500px;
+    }
+    .prod__info{
+        h3{
+            font-size: 1.3em;
+        }
+        span{
+            font-size: 1em;
+        }
+    }
+    .advantages{
+        margin-top: 0;
+    }
+    .advantages__container{
+        width: 95%;
+    }
+    .footer__item{
+        form{
+            input{
+                width: 280px;
+            }
+        }
+    }
+}
