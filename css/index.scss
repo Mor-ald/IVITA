@@ -1150,6 +1150,24 @@ footer{
         }
     }
 }
+@media (max-width: 400px){
+    .burger__box{
+        .menu__contacts:last-child{
+            a::before{
+                top: 20px;
+                left: 0px;
+            }
+        }
+    }
+    .footer__contacts{
+        span:nth-child(4){
+            a::before{
+                left: -20px;
+                top: 8px;
+            }
+        }
+    }
+}
 @media (max-width: 380px){
     .menu__logo{
         width: 40%;
@@ -1199,17 +1217,18 @@ footer{
         }
     }
     .footer{
-        padding: 0 20px;
+        padding: 0 5px;
     }
     .footer__item{
+        width: 95%;
         form{
-            width: 90%;
+            width: 100%;
         }
     }
     .footer__contacts{
         span:nth-child(4){
             a::before{
-                left: -5px;
+                left: 15px;
                 top: 8px;
             }
         }
@@ -1245,6 +1264,14 @@ footer{
         form{
             input{
                 width: 280px;
+            }
+        }
+    }
+    .footer__contacts{
+        span:nth-child(4){
+            a::before{
+                left: -5px;
+                top: 8px;
             }
         }
     }
