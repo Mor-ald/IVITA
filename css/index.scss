@@ -814,15 +814,14 @@ footer{
         justify-content: flex-start;
         position: absolute;
         visibility: hidden;
-        top: -100%;
+        top: -400%;
         left: 0;
         width: 100%;
         height: 1200px;
         margin: 0;
         padding: 60px 0;
         background-color: #02c39a;
-        -webkit-transition-duration: .25s;
-                transition-duration: .25s;
+        transition: 0.4s;
         z-index: 1;
 
         .burger__logo{
@@ -835,7 +834,7 @@ footer{
             justify-content: center;
             align-items: center;
             margin: 15px auto;
-
+            transition: .02s;
             a{
                 text-decoration: none;
             }
