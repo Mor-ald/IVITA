@@ -16,8 +16,8 @@
 }
 
 @font-face {
-    font-family: PF-Black;
-    src: url(../fonts/PlayfairDisplay-Black.ttf);
+    font-family: Outreque;
+    src: url(../fonts/OutrequeBlack.ttf);
 }
 
 @font-face {
@@ -44,19 +44,19 @@ html, body {
 }
 h1{
     color: #ffffff;
-    font-family: PF-Black;
+    font-family: Outreque;
     font-size: 3em;
     z-index: 1;
 }
 h2{
-    font-family: PF;
+    font-family: Outreque;
     font-weight: 800;
     font-size: 2.9em;
     transition: 0.4s ease;
     margin: 5px 0;
 }
 h3{
-    font-family: Roboto-Black;
+    font-family: Outreque;
     font-size: 2em;
     margin-bottom: 10px;
     transition: 0.4s ease;
@@ -71,7 +71,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: $color1;
-    z-index: 2;
+    z-index: 5;
 }
 .content_section{
     padding: 100px 20px 0 20px;
