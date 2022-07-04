@@ -116,13 +116,25 @@ header {
 }
 
 .menu__contacts a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 0 5px;
   color: #303030;
 }
 
+.menu__contacts a img {
+  margin: 0 5px 0 0;
+}
+
 .menu__contacts a:hover {
   opacity: 0.75;
-  text-decoration: underline;
 }
 
 .progress {
@@ -244,6 +256,11 @@ header {
   height: 175px;
   background-color: #1e9b80;
   opacity: 0.8;
+}
+
+.prod__line_linear_start {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(20%), to(#1e9b80));
+  background: linear-gradient(white, 20%, #1e9b80);
 }
 
 .prod__circle {

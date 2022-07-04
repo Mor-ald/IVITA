@@ -96,6 +96,12 @@ header{
     margin: 0 10px;
 
     a{
+        img{
+            margin: 0 5px 0 0;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0 0 0 5px;
         color: $color2;
         @extend %link;
@@ -103,7 +109,6 @@ header{
 
     a:hover{
         opacity: 0.75;
-        text-decoration: underline;
     }
 }
 .progress{
@@ -190,6 +195,9 @@ header{
     height: 175px;
     background-color: #1e9b80;
     opacity: 0.8;
+}
+.prod__line_linear_start{
+    background: linear-gradient(white, 20%, #1e9b80);
 }
 .prod__circle{
     display: flex;
