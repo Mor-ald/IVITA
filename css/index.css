@@ -566,6 +566,9 @@ footer {
   .certificate {
     width: 80%;
   }
+  .menu__contacts {
+    margin: 0 5px;
+  }
 }
 
 @media (max-width: 950px) {
