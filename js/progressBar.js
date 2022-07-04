@@ -8,5 +8,4 @@ function progressBar() {
     document.getElementById('progress__line').style.width = scrolled + '%';
 }
 
-// Запускаем функцию, когда пользователя скролит
 window.addEventListener('scroll', progressBar);
